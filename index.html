@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<basefont size="5"/>
+<title>Five Things You Should Know About HTML5 - Dive Into HTML5</title>
+</head>
+
+<body marginwidth="50">
+<p>&nbsp;</p>
+<p>You are here: <a style="border-bottom: 1px dotted; text-decoration:none" href="index.html">Home</a> <span class="u triangularBullet"></span> <a style="border-bottom: 1px dotted; text-decoration:none"  href="table-of-contents.html#introduction">Dive Into HTML5</a> <span class="u triangularBullet"></span></p>
+<p>&nbsp;</p>
+<h1 align="center">INTRODUCTION:</h1>
+<h1 align="center">FIVE THINGS YOU SHOULD KNOW</h1>
+<h1 align="center"> ABOUT HTML5</h1>
+<p align="center">&nbsp;</p>
+<div align="center">
+  <p><a style="border-bottom: 1px dotted; text-decoration:none" href="javascript:showTOC()">show table of contents</a></p>
+  <p>&nbsp;</p>
+</div>
+
+<h2 align="center" id="one"><img src="heart.jpg" width="27" height="27"></h2>
+<p align="center">&nbsp;</p>
+<h2>1. It’s not one big thing</h2>
+<p>&nbsp;</p>
+<p style="float:right;margin:0 0 1.75em 1.75em">
+<img src="video.png" alt="[mock video player]" width="226" height="166">
+<p>You may well ask: “How can I start using HTML5 if older browsers don’t support it?” But the question itself is misleading.
+HTML5 is not one big thing; it is a collection of individual features. So you can’t detect “HTML5 support,” because that doesn’t make any sense. But you <em>can</em> detect support for individual features, like canvas, video, or geolocation.</p>
+<p>You may think of HTML as tags and angle brackets. That’s an important part of it, but it’s not the whole story. The HTML5 specification also defines how those angle brackets interact with JavaScript, through the Document Object Model (DOM). HTML5 doesn’t just define a <code>&lt;video&gt;</code> tag; there is also a corresponding DOM API for video objects in the DOM. You can use this API to detect support for different video formats, play a video, pause, mute audio, track how much of the video has been downloaded, and everything else you need to build a rich user experience around the <code>&lt;video&gt;</code> tag itself.</p>
+<p><a style="border-bottom: 1px dotted; text-decoration:none" href="detect.html">Chapter 2</a> and <a style="border-bottom: 1px dotted; text-decoration:none" href="everything.html">Appendix A</a> will teach you how to properly detect support for each new HTML5 feature.</p>
+<p>&nbsp;</p>
+<h2 id="two">2. You don’t need to throw anything away</h2>
+<p>&nbsp;</p>
+<p style="float:left;margin:0 1.75em 1.75em 0"><img src="forms.png" alt="[sample form controls]" width="134" height="196"></p>
+
+<p>Love it or hate it, you can’t deny that HTML 4 is the most successful markup format ever. HTML5 builds on that success. You don’t need to throw away your existing markup. You don’t need to relearn things you already know. If your web application worked yesterday in HTML 4, it will still work today in HTML5. Period.</p>
+
+<p style="font-size:18px">Now, if you want to <em>improve</em> your web applications, you’ve come to the right place. Here’s a concrete example: HTML5 supports all the form controls from HTML 4, but it also includes new input controls. Some of these are long-overdue additions like sliders and date pickers; others are more subtle. For example, the <code>email</code> input type looks just like a text box, but mobile browsers will customize their onscreen keyboard to make it easier to type email addresses. Older browsers that don’t support the <code>email</code> input type will treat it as a regular text field, and the form still works with no markup changes or scripting hacks. This means you can start improving your web forms <em>today</em>, even if some of your visitors are stuck on IE 6.</p>
+
+<p>Read all the gory details about HTML5 forms in <a style="border-bottom: 1px dotted; text-decoration:none" href="forms.html">Chapter 9</a>.</p>
+<p>&nbsp;</p>
+<h2 id="three">3. It’s easy to get started</h2>
+<p>&nbsp;</p>
+<p style="float:right;margin:0 0 1.75em 1.75em"><img src="markup-with-arrow.png" alt="[sample HTML markup]" width="234" height="202"></p>
+<p>“Upgrading” to HTML5 can be as simple as changing your <i>doctype</i>. The doctype should already be on the first line of every HTML page. Previous versions of HTML defined a lot of doctypes, and choosing the right one could be tricky. In HTML5, there is only one doctype:</p>
+<blockquote>
+<p><code>&lt;!DOCTYPE html&gt;</code></p></blockquote>
+
+<p>Upgrading to the HTML5 doctype won’t break your existing markup, because <a style="border-bottom: 1px dotted; text-decoration:none" rel="external" href="http://www.w3.org/TR/html5-diff/#absent-elements" target="_blank">obsolete elements</a> previously defined in HTML 4 will still render in HTML5. But it will allow you to use — and validate — new semantic elements like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. You’ll learn all about these new elements in <a style="border-bottom: 1px dotted; text-decoration:none" href="semantics.html">Chapter 3</a>.</p>
+<p>&nbsp;</p>
+<h2 id="four">4. It already works</h2>
+<p>&nbsp;</p>
+<p style="float:left;margin:0 1.75em 1.75em 0"><img src="rel-email.png" alt="[form field with onscreen keyboard]" width="227" height="192">
+<p>Whether you want to draw on a canvas, play video, design better forms, or build web applications that work offline, you’ll find that HTML5 is already well-supported. Firefox, Safari, Chrome, Opera, and mobile browsers already support canvas (<a style="border-bottom: 1px dotted; text-decoration:none" href="canvas.html">Chapter 4</a>), video (<a style="border-bottom: 1px dotted; text-decoration:none" href="video.html">Chapter 5</a>), geolocation (<a style="border-bottom: 1px dotted; text-decoration:none" href="geolocation.html">Chapter 6</a>), local storage (<a style="border-bottom: 1px dotted; text-decoration:none" href="storage.html">Chapter 7</a>), and more. Google already supports microdata annotations (<a style="border-bottom: 1px dotted; text-decoration:none" href="extensibility.html">Chapter 10</a>). Even Microsoft — rarely known for blazing the trail of standards support — supports most HTML5 features in Internet Explorer 9.</p>
+
+
+</p>
+<p style="float:right;margin:0 0 1.75em 1.75em"><img src="gears.png" alt="[Gears saying &quot;I can help&quot;]" width="125" height="75"></p>
+<p>Each chapter of this book includes the all-too-familiar browser compatibility charts. But more importantly, each chapter includes a frank discussion of your options if you need to support older browsers. HTML5 features like geolocation (<a style="border-bottom: 1px dotted; text-decoration:none" href="geolocation.html">Chapter 6</a>) and video (<a style="border-bottom: 1px dotted; text-decoration:none" href="video.html">Chapter 5</a>) were first provided by browser plugins like Gears or Flash. Other features, like canvas (<a style="border-bottom: 1px dotted; text-decoration:none" href="canvas.html">Chapter 4</a>), can be emulated entirely in JavaScript. This book will teach you how to target the native features of modern browsers, without leaving older browsers behind.</p>
+<p>&nbsp;</p>
+<h2 id="five">5. It’s here to stay</h2>
+<p>&nbsp;</p>
+<p>Tim Berners-Lee invented the world wide web in the early 1990s. He later founded the W3C to act as a steward of web standards, which the organization has done for more than 15 years. Here is what the W3C had to say about the future of web standards, in July 2009:</p>
+
+<blockquote cite="http://www.w3.org/News/2009#item119">
+<p>Today the Director announces that when the XHTML 2 Working Group charter expires as scheduled at the end of 2009, the charter will not be renewed. By doing so, and by increasing resources in the HTML Working Group, W3C hopes to accelerate the progress of HTML5 and clarify W3C’s position regarding the future of HTML.</p></blockquote>
+
+<p>HTML5 is here to stay. <a style="border-bottom: 1px dotted; text-decoration:none" href="past.html">Let’s dive in</a>.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="heart.jpg" width="27" height="27"></p>
+<p align="center">&nbsp;</p>
+<div class="pf">
+<p style="float:right;margin:0 0 1.75em 1.75em"><img src="openclipart.org_johnny_automatic_bag_of_money.png" alt="[Gears saying &quot;I can help&quot;]"></p>
+<h4>DID YOU KNOW?</h4>
+<div class="moneybags">
+<blockquote><p>In association with Google Press, O’Reilly is distributing this book in a variety of formats, including paper, ePub, Mobi, and DRM-free PDF. The paid edition is called “HTML5: Up &amp; Running,” and it is available now.
+</p><p>If you liked this introduction and want to show your appreciation, you can <a style="border-bottom: 1px dotted; text-decoration:none" href="http://www.amazon.com/HTML5-Up-Running-Mark-Pilgrim/dp/0596806027?ie=UTF8&amp;tag=diveintomark-20&amp;creativeASIN=0596806027">buy “HTML5: Up &amp; Running” with this affiliate link</a> or <a style="border-bottom: 1px dotted; text-decoration:none" href="http://oreilly.com/catalog/9780596806033">buy an electronic edition directly from O’Reilly</a>. You’ll get a book, and I’ll get a buck. I do not currently accept direct donations.
+</p></blockquote>
+</div>
+</div>
+
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">Copyright MMIX–MMXI <a style="border-bottom: 1px dotted; text-decoration:none" href="about.html">Mark Pilgrim</a></p>
+<form action="http://www.google.com/cse"><div>
+  <div align="center">
+    <input type="hidden" name="cx" value="017884302975346027366:bgclqh8nvse">
+    <input type="hidden" name="ie" value="UTF-8">
+    <input type="search" name="q" size="25" placeholder="powered by Google™">
+    &nbsp;
+    <input type="submit" name="sa" value="Search">
+  </div>
+</div></form>
+
+</body>
+</html>
